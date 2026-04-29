@@ -52,7 +52,3 @@ Mirror twin: `VyOS-Networks/hvinfo`. Canonical side is **here** (`vyos/hvinfo`).
 - Build needs Ada 2005 toolchain (`gnat`, `gprbuild`, `gnatprep`) — uncommon in modern dev environments.
 - Adding a new hypervisor signature: extend the relevant Ada module under `src/` and bump `VERSION`.
 - License: GPL-2.
-
----
-
-This file is mirrored on Confluence: [`vyos/hvinfo`](https://internal.confluence.vyos.com/wiki/spaces/VYOS/pages/818544689). The Confluence page also carries the per-repo audit data (settings, workflows, secret counts, hygiene) that complements this CLAUDE.md. Edit either side; resync via the documentation pipeline.
