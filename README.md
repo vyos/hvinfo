@@ -34,7 +34,7 @@ dpkg-buildpackage -b -us -uc
 If you have your Ada toolchain installed in an unusual location,
 it's better to ensure you have it in your `$PATH`.
 
-# OS and hypervisor support
+## OS and hypervisor support
 
 CPUID-based checks that can detect KVM, Xen HVM, VMware, bhyve, and Hyper-V are
 supported on any OS.
